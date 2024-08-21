@@ -38,8 +38,10 @@ int	main(int argc, char **argv)
 	char				*img_addr;
 	int					indx_s[8];
 
-	if (argc != 2)
+	if (argc != 2) {
+		printf("usage ./fdf /path/to/fdf_file\n");
 		exit(1);
+	}
 	points = setup_indx_s(argv[1], indx_s);
 	if (!points)
 		exit(1);
