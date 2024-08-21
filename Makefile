@@ -1,8 +1,3 @@
-#SRC = init.c cordination.c drawing.c drawing_utils.c formulas.c drawing_2.c fdf.c \
-#	  general_utils.c parsing_file.c specific_task_utils.c \
-#	  get_next_line.c get_next_line_utils.c \
-#	  formulas_utils.c parsing_utils.c
-
 CC = cc
 SRC_DIR = src
 INCLUDE_DIR = include
