@@ -2,7 +2,7 @@
 ## About
 FDF is a 3D wireframe rendering application that transforms 2D elevation maps into 3d landscapes,
 creating a wireframe representation of the terrain.
-using the school graphic library Minilibx
+using the school graphic library <a href="/lib/minilibx_macos/_README_">Minilibx</a>
 
 ## Examples
 - ### simple file format
